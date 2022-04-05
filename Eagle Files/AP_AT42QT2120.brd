@@ -1879,14 +1879,19 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="C2" pad="2"/>
 <contactref element="IO" pad="6"/>
-<polygon width="0.3048" layer="1">
-<vertex x="-0.254" y="-0.508"/>
-<vertex x="-0.254" y="46.228"/>
-<vertex x="36.576" y="46.228"/>
-<vertex x="36.576" y="-0.508"/>
-</polygon>
 <contactref element="U$1" pad="12"/>
 <contactref element="U$1" pad="10"/>
+<wire x1="23.368" y1="40.894" x2="23.368" y2="39.624" width="0.6096" layer="1"/>
+<wire x1="23.368" y1="39.624" x2="22.098" y2="38.354" width="0.6096" layer="1"/>
+<wire x1="22.098" y1="38.354" x2="22.098" y2="33.274" width="0.6096" layer="1"/>
+<wire x1="22.098" y1="33.274" x2="20.828" y2="32.004" width="0.6096" layer="1"/>
+<wire x1="20.828" y1="32.004" x2="20.828" y2="29.812" width="0.6096" layer="1"/>
+<wire x1="20.828" y1="29.812" x2="20.828" y2="26.67" width="0.6096" layer="1"/>
+<wire x1="24.006" y1="23.492" x2="25.146" y2="23.492" width="0.6096" layer="1"/>
+<wire x1="20.828" y1="26.67" x2="24.006" y2="23.492" width="0.6096" layer="1"/>
+<wire x1="22.098" y1="19.812" x2="23.876" y2="19.812" width="0.6096" layer="1"/>
+<wire x1="23.876" y1="19.812" x2="25.146" y2="21.082" width="0.6096" layer="1"/>
+<wire x1="25.146" y1="21.082" x2="25.146" y2="23.492" width="0.6096" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="R9" pad="1"/>
@@ -2044,7 +2049,7 @@ design rules under a new name.</description>
 <signal name="N$19">
 <contactref element="TOUCH" pad="7"/>
 <contactref element="R26" pad="1"/>
-<wire x1="8.128" y1="3.048" x2="8.128" y2="6.706" width="0" layer="19" extent="1-1"/>
+<wire x1="8.128" y1="3.048" x2="8.128" y2="6.706" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="R26" pad="2"/>
