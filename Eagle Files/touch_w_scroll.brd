@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -75,11 +75,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="14" y2="0" width="0" layer="20"/>
-<wire x1="14" y1="0" x2="14" y2="73" width="0" layer="20"/>
-<wire x1="14" y1="73" x2="0" y2="73" width="0" layer="20"/>
-<wire x1="0" y1="73" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="4.65" y1="9.35" x2="9.35" y2="4.65" width="0.8128" layer="20"/>
-<wire x1="4.65" y1="4.65" x2="9.35" y2="9.35" width="0.8128" layer="20"/>
+<wire x1="14" y1="0" x2="14" y2="76" width="0" layer="20"/>
+<wire x1="14" y1="76" x2="0" y2="76" width="0" layer="20"/>
+<wire x1="0" y1="76" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Cap Touch Pads" urn="urn:adsk.eagle:library:35100943">
@@ -1281,20 +1279,16 @@
 </polygon>
 <pad name="1" x="6" y="-6" drill="1" shape="square"/>
 </package>
-<package name="12X12_PAD_LED" urn="urn:adsk.eagle:footprint:35129607/1" library_version="5">
+<package name="12X12_PAD_LED" urn="urn:adsk.eagle:footprint:35129607/3" library_version="7">
 <polygon width="0.1524" layer="1">
 <vertex x="0.0762" y="-11.9238"/>
 <vertex x="11.9238" y="-11.9238"/>
 <vertex x="11.9238" y="-0.0762"/>
 <vertex x="0.0762" y="-0.0762"/>
 </polygon>
-<polygon width="0.1524" layer="1" pour="cutout">
-<vertex x="3.5762" y="-8.4238"/>
-<vertex x="8.4238" y="-8.4238"/>
-<vertex x="8.4238" y="-3.5762"/>
-<vertex x="3.5762" y="-3.5762"/>
-</polygon>
 <pad name="1" x="2" y="-2" drill="1" shape="square"/>
+<wire x1="3.65" y1="-3.65" x2="8.35" y2="-8.35" width="0.8128" layer="46"/>
+<wire x1="3.65" y1="-8.35" x2="8.35" y2="-3.65" width="0.8128" layer="46"/>
 </package>
 </packages>
 <packages3d>
@@ -1308,7 +1302,7 @@
 <packageinstance name="12X12_PAD"/>
 </packageinstances>
 </package3d>
-<package3d name="12X12_PAD_LED" urn="urn:adsk.eagle:package:35129608/1" type="box" library_version="5">
+<package3d name="12X12_PAD_LED" urn="urn:adsk.eagle:package:35129608/3" type="box" library_version="7">
 <packageinstances>
 <packageinstance name="12X12_PAD_LED"/>
 </packageinstances>
@@ -1508,9 +1502,9 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" package="SLIDE" package3d_urn="urn:adsk.eagle:package:35100947/4" value="SLIDE_PAD" x="13" y="59" smashed="yes" rot="R270"/>
-<element name="U$2" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" package="12X12_PAD" package3d_urn="urn:adsk.eagle:package:35100948/2" value="12X12_PAD" x="1" y="72" smashed="yes"/>
-<element name="U$4" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" package="12X12_PAD_LED" package3d_urn="urn:adsk.eagle:package:35129608/1" value="12X12_PADLED" x="1" y="13" smashed="yes"/>
+<element name="U$1" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" package="SLIDE" package3d_urn="urn:adsk.eagle:package:35100947/4" value="SLIDE_PAD" x="13" y="60.5" smashed="yes" rot="R270"/>
+<element name="U$2" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" package="12X12_PAD" package3d_urn="urn:adsk.eagle:package:35100948/2" value="12X12_PAD" x="1" y="75" smashed="yes"/>
+<element name="U$4" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" package="12X12_PAD_LED" package3d_urn="urn:adsk.eagle:package:35129608/3" value="12X12_PADLED" x="1" y="13" smashed="yes"/>
 </elements>
 <signals>
 </signals>
@@ -1521,6 +1515,22 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,9a1c3d5d4360197a"/>
+<approved hash="4,1,29c9e8d9971b0dc6"/>
+<approved hash="4,1,8037031c2fb0e766"/>
+<approved hash="4,1,21ecfcaa2eb0461f"/>
+<approved hash="4,1,310ae9e596c815f6"/>
+<approved hash="4,1,f8451e9860242a91"/>
+<approved hash="4,1,60fc1edd61d1b715"/>
+<approved hash="4,1,a786971de9a9fdd3"/>
+<approved hash="4,1,d17365e42eb9b5a3"/>
+<approved hash="4,1,28c4995f5ea87549"/>
+<approved hash="4,1,58aa73b62eb03fdd"/>
+<approved hash="4,1,ea2e261629788d61"/>
+<approved hash="4,1,441de43af90d9479"/>
+<approved hash="4,1,1f0d8e21f1925f03"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

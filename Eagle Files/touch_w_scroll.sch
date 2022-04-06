@@ -1273,20 +1273,16 @@
 </polygon>
 <pad name="1" x="6" y="-6" drill="1" shape="square"/>
 </package>
-<package name="12X12_PAD_LED" urn="urn:adsk.eagle:footprint:35129607/1" library_version="5">
+<package name="12X12_PAD_LED" urn="urn:adsk.eagle:footprint:35129607/3" library_version="7">
 <polygon width="0.1524" layer="1">
 <vertex x="0.0762" y="-11.9238"/>
 <vertex x="11.9238" y="-11.9238"/>
 <vertex x="11.9238" y="-0.0762"/>
 <vertex x="0.0762" y="-0.0762"/>
 </polygon>
-<polygon width="0.1524" layer="1" pour="cutout">
-<vertex x="3.5762" y="-8.4238"/>
-<vertex x="8.4238" y="-8.4238"/>
-<vertex x="8.4238" y="-3.5762"/>
-<vertex x="3.5762" y="-3.5762"/>
-</polygon>
 <pad name="1" x="2" y="-2" drill="1" shape="square"/>
+<wire x1="3.65" y1="-3.65" x2="8.35" y2="-8.35" width="0.8128" layer="46"/>
+<wire x1="3.65" y1="-8.35" x2="8.35" y2="-3.65" width="0.8128" layer="46"/>
 </package>
 </packages>
 <packages3d>
@@ -1300,7 +1296,7 @@
 <packageinstance name="12X12_PAD"/>
 </packageinstances>
 </package3d>
-<package3d name="12X12_PAD_LED" urn="urn:adsk.eagle:package:35129608/1" type="box" library_version="5">
+<package3d name="12X12_PAD_LED" urn="urn:adsk.eagle:package:35129608/3" type="box" library_version="7">
 <packageinstances>
 <packageinstance name="12X12_PAD_LED"/>
 </packageinstances>
@@ -1359,7 +1355,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="12X12_PAD" urn="urn:adsk.eagle:component:35100950/2" library_version="5">
+<deviceset name="12X12_PAD" urn="urn:adsk.eagle:component:35100950/4" library_version="7">
 <gates>
 <gate name="G$1" symbol="12X12_BUTTON" x="0" y="0"/>
 </gates>
@@ -1380,7 +1376,7 @@
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35129608/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35129608/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1402,7 +1398,7 @@
 <parts>
 <part name="U$1" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" deviceset="SLIDE_PAD" device="" package3d_urn="urn:adsk.eagle:package:35100947/4"/>
 <part name="U$2" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" deviceset="12X12_PAD" device="" package3d_urn="urn:adsk.eagle:package:35100948/2"/>
-<part name="U$4" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" deviceset="12X12_PAD" device="LED" package3d_urn="urn:adsk.eagle:package:35129608/1"/>
+<part name="U$4" library="Cap Touch Pads" library_urn="urn:adsk.eagle:library:35100943" deviceset="12X12_PAD" device="LED" package3d_urn="urn:adsk.eagle:package:35129608/3"/>
 </parts>
 <sheets>
 <sheet>
