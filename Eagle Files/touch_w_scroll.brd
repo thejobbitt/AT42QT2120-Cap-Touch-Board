@@ -78,6 +78,8 @@
 <wire x1="14" y1="0" x2="14" y2="73" width="0" layer="20"/>
 <wire x1="14" y1="73" x2="0" y2="73" width="0" layer="20"/>
 <wire x1="0" y1="73" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="4.65" y1="9.35" x2="9.35" y2="4.65" width="0.8128" layer="20"/>
+<wire x1="4.65" y1="4.65" x2="9.35" y2="9.35" width="0.8128" layer="20"/>
 </plain>
 <libraries>
 <library name="Cap Touch Pads" urn="urn:adsk.eagle:library:35100943">
