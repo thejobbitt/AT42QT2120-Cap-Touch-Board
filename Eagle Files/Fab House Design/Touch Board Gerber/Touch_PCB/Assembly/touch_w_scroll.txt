@@ -1,0 +1,7 @@
+Partlist exported from C:/Users/QwertyWizard/Documents/github/AT42QT2120-Cap-Touch-Board/Eagle Files/Fab House Design/touch_w_scroll.sch at 6/21/2022 3:18 PM
+
+Qty Value        Device       Package       Parts Description CATEGORY  DESCRIPTION MANUFACTURER MPN OPERATING_TEMP PART_STATUS ROHS_COMPLIANT SERIES SUB-CATEGORY THERMALLOSS TYPE
+1   12X12_PAD    12X12_PAD    12X12_PAD     U$2                                                                                                                                    
+1   12X12_PADLED 12X12_PADLED 12X12_PAD_LED U$4                                                                                                                                    
+1   PINHD-1X5    PINHD-1X5    1X05          JP1   PIN HEADER  CONNECTOR                                                                               PIN-HEADER                   
+1   SLIDE_PAD    SLIDE_PAD    SLIDE         U$1                                                                                                                                    
